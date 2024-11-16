@@ -1,0 +1,26 @@
+.poke_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.imgarea img {
+    width: 100%;
+    height: auto;
+}
+
+.single_gauge {
+    color: green;
+    font-size: 12px;
+}
